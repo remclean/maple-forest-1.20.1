@@ -12,7 +12,6 @@ public class MapleForest implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
