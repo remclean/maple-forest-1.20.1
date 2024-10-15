@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "maple-forest",
+	"version": "${version}",
+	"name": "maple forest",
+	"description": "Adds maple trees to Minecraft",
+	"authors": [
+		"remclean"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/maple-forest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.remclean.mapleforest.MapleForest"
+		],
+		"client": [
+			"net.remclean.mapleforest.MapleForestClient"
+		],
+		"fabric-datagen": [
+			"net.remclean.mapleforest.MapleForestDataGenerator"
+		]
+	},
+	"mixins": [
+		"maple-forest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
