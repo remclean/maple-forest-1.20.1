@@ -11,8 +11,8 @@ import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
 
 public class ModItems {
-    public static final Item MAPLE_SYRUP = registerItem("maplesyrup", new Item(new FabricItemSettings()));
-    public static final Item MAPLE_SAP = registerItem("maplesap", new Item(new FabricItemSettings()));
+    public static final Item MAPLE_SYRUP = registerItem("maplesyrup", new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SYRUP)));
+    public static final Item MAPLE_SAP = registerItem("maplesap", new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SAP)));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(MAPLE_SYRUP);
