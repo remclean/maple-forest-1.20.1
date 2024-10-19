@@ -1,6 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "maple-forest:block/maple_log"
+    "down": "maple-forest:block/maple_log_top",
+    "up": "maple-forest:block/maple_log_top",
+    "north": "maple-forest:block/maple_log",
+    "east": "maple-forest:block/maple_log",
+    "south": "maple-forest:block/maple_log",
+    "west": "maple-forest:block/maple_log",
+    "particle": "maple-forest:block/maple_log"
   }
 }
