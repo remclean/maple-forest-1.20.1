@@ -1,7 +1,18 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "maple-forest:block/maple_log",
+      "x": 90,
+      "y": 90,
+      "z": 90
+    },
+    "axis=y": {
       "model": "maple-forest:block/maple_log"
+    },
+    "axis=z": {
+      "model": "maple-forest:block/maple_log",
+      "x": 90,
+      "z": 90
     }
   }
 }
