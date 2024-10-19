@@ -12,9 +12,11 @@ import net.remclean.mapleforest.MapleForest;
 
 public class ModItems {
     public static final Item MAPLE_SYRUP = registerItem("maplesyrup", new Item(new FabricItemSettings()));
+    public static final Item MAPLE_SAP = registerItem("maplesap", new Item(new FabricItemSettings()));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(MAPLE_SYRUP);
+        entries.add(MAPLE_SAP);
     }
 
     private static Item registerItem(String name, Item item) {
