@@ -1,6 +1,6 @@
 {
     "parents": "item/generated",
     "textures": {
-        "layer0": "mapleforest:item/maplesyrup"
+        "layer0": "maple-forest:item/maplesyrup"
     }
 }
