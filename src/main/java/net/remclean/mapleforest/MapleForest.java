@@ -1,5 +1,6 @@
 package net.remclean.mapleforest;
 
+import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.item.ModItemGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class MapleForest implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

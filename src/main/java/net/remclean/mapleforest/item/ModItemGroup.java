@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
+import net.remclean.mapleforest.block.ModBlocks;
 
 public class ModItemGroup {
     public static final ItemGroup MAPLEFOREST_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,8 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.MAPLE_SYRUP)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModItems.MAPLE_SAP);
+                        entries.add(ModBlocks.MAPLE_LOG);
+                        entries.add(ModBlocks.MAPLE_PLANKS);
                     }).build());
 
     public static void registerItemGroups() {
