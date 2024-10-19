@@ -1,4 +1,6 @@
 {
     "item.maple-forest.maplesyrup": "Maple Syrup",
-    "item.maple-forest.maplesap": "Maple Sap"
+    "item.maple-forest.maplesap": "Maple Sap",
+
+    "itemgroup.mapleforest": "Maple Forest"
 }
