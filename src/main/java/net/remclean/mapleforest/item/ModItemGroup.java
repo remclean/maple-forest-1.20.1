@@ -17,6 +17,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.MAPLE_SYRUP)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModItems.MAPLE_SAP);
+                        entries.add(ModItems.ORE_DETECTOR);
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_PLANKS);
                     }).build());

@@ -9,10 +9,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
+import net.remclean.mapleforest.item.custom.MetalDetectorItem;
 
 public class ModItems {
     public static final Item MAPLE_SYRUP = registerItem("maplesyrup", new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SYRUP)));
     public static final Item MAPLE_SAP = registerItem("maplesap", new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SAP)));
+
+    public static final Item ORE_DETECTOR = registerItem("oredetector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(MAPLE_SYRUP);
