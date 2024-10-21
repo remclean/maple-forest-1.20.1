@@ -6,5 +6,7 @@
     "block.maple-forest.maple_planks": "Maple Planks",
     "block.maple-forest.maple_log": "Maple Log",
 
-    "itemgroup.mapleforest": "Maple Forest"
+    "itemgroup.mapleforest": "Maple Forest",
+
+    "tooltip.maple-forest.ore_detector": "Locates ores"
 }
