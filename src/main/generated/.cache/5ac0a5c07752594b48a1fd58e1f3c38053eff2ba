@@ -1,0 +1,10 @@
+// 1.20.1	2024-10-24T17:48:18.189311336	maple forest/Model Definitions
+733e9ab93358d715db74f8fb7724a9878fdc2277 assets/maple-forest/models/block/maple_planks.json
+b3679a67ec8bd1eb076c49c6ea4012302ba2dc4a assets/maple-forest/models/item/maple_planks.json
+cdbe5cebcc0c3e221286a6c846e6293e43b8ebee assets/maple-forest/models/item/maplesyrup.json
+c3f21e19d4854e3fe2abe6ac376c5e1cc6f52732 assets/maple-forest/blockstates/maple_planks.json
+6e018e93d7bcd785a4013fb47154e0cd03a2e49f assets/maple-forest/models/item/oredetector.json
+2ba0b9d63d3b35c0243b46004e007cb55ee8ca15 assets/maple-forest/blockstates/maple_leaves.json
+7a8de478b990ba5c2edaabf96a0dafbd96396485 assets/maple-forest/models/item/maple_leaves.json
+fd399eadf6e5df6bb8263769b985fd0d1c2a602a assets/maple-forest/models/block/maple_leaves.json
+550f97856c99c83419d5e304edb8c6a9b4667d77 assets/maple-forest/models/item/maplesap.json
