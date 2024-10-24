@@ -17,6 +17,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block MAPLE_LOG = registerBlock("maple_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
+    public static final Block MAPLE_LEAVES = registerBlock("maple_leaves",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -20,6 +20,7 @@ public class ModItemGroup {
                         entries.add(ModItems.ORE_DETECTOR);
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_PLANKS);
+                        entries.add(ModBlocks.MAPLE_LEAVES);
                     }).build());
 
     public static void registerItemGroups() {
