@@ -18,6 +18,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.MAPLE_LOG)
                 .add(ModBlocks.MAPLE_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.MAPLE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.MAPLE_FENCE_GATE);
         }
     }
 

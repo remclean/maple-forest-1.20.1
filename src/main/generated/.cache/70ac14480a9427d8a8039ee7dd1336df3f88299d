@@ -1,3 +1,11 @@
-// 1.20.1	2024-10-24T17:48:18.189060156	maple forest/Block Loot Tables
+// 1.20.1	2024-10-25T13:38:58.466438899	maple forest/Block Loot Tables
+a9b333cda735409489bc62e81adfe6eceac2e381 data/maple-forest/loot_tables/blocks/maple_button.json
+5bb57d072763a183088636184ee3a0ff6286caf4 data/maple-forest/loot_tables/blocks/maple_door.json
+5632c281669b558ac018bdcb2feda6653170b8b8 data/maple-forest/loot_tables/blocks/maple_slab.json
+822ff99745b5c12f609f8065e55024ab8d08de3e data/maple-forest/loot_tables/blocks/maple_fence_gate.json
 3ebc261e4e276df172f6aa25727d4d13f81b89e0 data/maple-forest/loot_tables/blocks/maple_log.json
 34ec2f18ccbef31f6dd933d7a61c0556ca866b26 data/maple-forest/loot_tables/blocks/maple_planks.json
+2b8b79a41ea92b43235541ca214a1745f34c572c data/maple-forest/loot_tables/blocks/maple_stairs.json
+eb0b8e74d3044c46ef1a531881e475c8a06ca408 data/maple-forest/loot_tables/blocks/maple_pressure_plate.json
+9b84e1245921d73f50902032a5c4d63f8935b990 data/maple-forest/loot_tables/blocks/maple_fence.json
+2a1fac7432969f253bf38f1869960c5babfc9340 data/maple-forest/loot_tables/blocks/maple_trapdoor.json
