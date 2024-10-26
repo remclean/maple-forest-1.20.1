@@ -32,6 +32,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MAPLE_FENCE_GATE);
                         entries.add(ModBlocks.MAPLE_DOOR);
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
+                        entries.add(ModItems.MAPLE_SIGN);
+                        entries.add(ModItems.HANGING_MAPLE_SIGN);
 
 
                     }).build());
