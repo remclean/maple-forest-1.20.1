@@ -19,6 +19,9 @@ public class ModItemGroup {
                         entries.add(ModItems.MAPLE_SAP);
                         entries.add(ModItems.ORE_DETECTOR);
                         entries.add(ModBlocks.MAPLE_LOG);
+                        entries.add(ModBlocks.STRIPPED_MAPLE_LOG);
+                        entries.add(ModBlocks.MAPLE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_MAPLE_WOOD);
                         entries.add(ModBlocks.MAPLE_PLANKS);
                         entries.add(ModBlocks.MAPLE_LEAVES);
                         entries.add(ModBlocks.MAPLE_STAIRS);

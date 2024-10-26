@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.ItemTags;
 import net.remclean.mapleforest.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
@@ -23,6 +24,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAPLE_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.MAPLE_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.MAPLE_LOG)
+                .add(ModBlocks.MAPLE_WOOD)
+                .add(ModBlocks.STRIPPED_MAPLE_LOG)
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD);
         }
     }
 

@@ -5,6 +5,9 @@
 
     "block.maple-forest.maple_planks": "Maple Planks",
     "block.maple-forest.maple_log": "Maple Log",
+    "block.maple-forest.stripped_maple_log": "Stripped Maple Log",
+    "block.maple-forest.maple_wood": "Maple Wood",
+    "block.maple-forest.stripped_maple_wood": "Stripped Maple Wood",
     "block.maple-forest.maple_stairs": "Maple Stairs",
     "block.maple-forest.maple_slab": "Maple Slab",
     "block.maple-forest.maple_button": "Maple Button",
