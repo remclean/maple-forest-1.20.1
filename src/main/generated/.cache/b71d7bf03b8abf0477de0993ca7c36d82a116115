@@ -1,12 +1,12 @@
-// 1.20.1	2024-10-26T15:38:54.289951117	maple forest/Recipes
+// 1.20.1	2024-11-01T14:44:30.535056274	maple forest/Recipes
 88dfac9d0ffc70ca7c3c4a14c65e0872b1d8d717 data/maple-forest/recipes/maple_door.json
 aa69b784ecde6cfab2b3f67665e5c6dfabc4cece data/maple-forest/advancements/recipes/redstone/maple_fence_gate.json
 6e26283593e80d9657a9105a80975064d185cc7e data/maple-forest/advancements/recipes/building_blocks/maple_stairs.json
 25e0b6f4157f6baaee6c77cd4d33294ca739df08 data/maple-forest/recipes/maple_slab.json
 69759b5836199d349ce9b076798d8f9605187d04 data/maple-forest/recipes/maple_fence.json
 fbe5da6a6914c58b42c5793d212005293a962e03 data/maple-forest/recipes/maple_trapdoor.json
-f87cac9f2b07d1e194cce659ef64790ca61b526b data/maple-forest/advancements/recipes/redstone/maple_button.json
 552427a3a66dc273ad6c68643e3db24ecb081566 data/maple-forest/recipes/maple_fence_gate.json
+f87cac9f2b07d1e194cce659ef64790ca61b526b data/maple-forest/advancements/recipes/redstone/maple_button.json
 36171815d99dc87e25509a48b23475aea739406f data/maple-forest/recipes/maple_button.json
 2e5d7389ac7d628cc84c835bc40eb5028bee8650 data/maple-forest/recipes/maple_planks.json
 d5d925cc0afb8cf45eb72f7f046236d93bcf7a04 data/maple-forest/recipes/maple_stairs.json
