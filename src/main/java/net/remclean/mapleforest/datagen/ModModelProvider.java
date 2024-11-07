@@ -14,9 +14,9 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool maplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAPLE_PLANKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAPLE_LEAVES);
+    public void generateBlockStateModels(BlockStateModelGenerator bsmg) {
+        BlockStateModelGenerator.BlockTexturePool maplePool = bsmg.registerCubeAllModelTexturePool(ModBlocks.MAPLE_PLANKS);
+        bsmg.registerSimpleCubeAll(ModBlocks.MAPLE_LEAVES);
 
         maplePool.stairs(ModBlocks.MAPLE_STAIRS);
         maplePool.slab(ModBlocks.MAPLE_SLAB);
@@ -25,15 +25,17 @@ public class ModModelProvider extends FabricModelProvider {
         maplePool.fence(ModBlocks.MAPLE_FENCE);
         maplePool.fenceGate(ModBlocks.MAPLE_FENCE_GATE);
 
-        blockStateModelGenerator.registerDoor(ModBlocks.MAPLE_DOOR);
-        blockStateModelGenerator.registerTrapdoor(ModBlocks.MAPLE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAPLE_DOOR);
+        bsmg.registerTrapdoor(ModBlocks.MAPLE_TRAPDOOR);
 
-        blockStateModelGenerator.registerLog(ModBlocks.MAPLE_LOG).log(ModBlocks.MAPLE_LOG).wood(ModBlocks.MAPLE_WOOD);
-        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MAPLE_LOG).log(ModBlocks.STRIPPED_MAPLE_LOG).wood(ModBlocks.STRIPPED_MAPLE_WOOD);
+        bsmg.registerLog(ModBlocks.MAPLE_LOG).log(ModBlocks.MAPLE_LOG).wood(ModBlocks.MAPLE_WOOD);
+        bsmg.registerLog(ModBlocks.STRIPPED_MAPLE_LOG).log(ModBlocks.STRIPPED_MAPLE_LOG).wood(ModBlocks.STRIPPED_MAPLE_WOOD);
 
-        blockStateModelGenerator.registerHangingSign(ModBlocks.STRIPPED_MAPLE_LOG, ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN);
+        //Not in kaupenjoe's but made console stop throwing a bunch of warnings
+        bsmg.registerHangingSign(ModBlocks.STRIPPED_MAPLE_LOG, ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN);
 
-        maplePool.family(ModBlocks.MAPLE_FAMILY).sign(ModBlocks.STANDING_MAPLE_SIGN);
+
+        maplePool.family(ModBlocks.MAPLE_FAMILY);
     }
 
     @Override
@@ -43,6 +45,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ORE_DETECTOR, Models.GENERATED);
 
 
-        itemModelGenerator.register(ModItems.HANGING_MAPLE_SIGN, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.HANGING_MAPLE_SIGN, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.MAPLE_SIGN, Models.GENERATED);
     }
 }

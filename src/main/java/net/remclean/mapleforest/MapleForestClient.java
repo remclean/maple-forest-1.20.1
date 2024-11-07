@@ -6,7 +6,6 @@ import net.minecraft.client.render.TexturedRenderLayers;
 import net.minecraft.client.util.SpriteIdentifier;
 import net.remclean.mapleforest.block.ModBlocks;
 
-
 public class MapleForestClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {

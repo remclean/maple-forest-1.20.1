@@ -24,7 +24,7 @@ public class ModItems {
             new OreDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item MAPLE_SIGN = registerItem("maple_sign",
-            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_MAPLE_SIGN, ModBlocks.WALL_MAPLE_SIGN));
+            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.MAPLE_STANDING_SIGN, ModBlocks.WALL_MAPLE_SIGN));
     public static final Item HANGING_MAPLE_SIGN = registerItem("maple_hanging_sign",
             new HangingSignItem(ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN, new FabricItemSettings().maxCount(16)));
 
