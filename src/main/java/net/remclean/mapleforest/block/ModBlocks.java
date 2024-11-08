@@ -48,7 +48,7 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
 
 
-    public static final Identifier MAPLE_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/block/entity/signs/maple");
+    public static final Identifier MAPLE_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/entity/signs/maple");
     public static final Identifier MAPLE_HANGING_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/entity/signs/hanging/maple");
     public static final Identifier MAPLE_HANGING_GUI_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/gui/hanging_signs/maple");
 
