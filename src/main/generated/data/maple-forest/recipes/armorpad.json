@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "maple-forest:pelt"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "maple-forest:bark"
+    }
+  ],
+  "result": {
+    "item": "maple-forest:armorpad"
+  }
+}

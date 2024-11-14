@@ -20,12 +20,19 @@ public class ModItems {
     public static final Item MAPLE_SAP = registerItem("maplesap",
             new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SAP)));
 
+    public static final Item PELT = registerItem("pelt",
+            new Item(new FabricItemSettings()));
+    public static final Item ARMOR_PAD = registerItem("armorpad",
+            new Item(new FabricItemSettings()));
+    public static final Item BARK = registerItem("bark",
+            new Item(new FabricItemSettings()));
+
     public static final Item ORE_DETECTOR = registerItem("oredetector",
             new OreDetectorItem(new FabricItemSettings().maxDamage(64)));
 
-    public static final Item MAPLE_SIGN = registerItem("maple_sign",
+    public static final Item MAPLE_SIGN = registerItem("maplesign",
             new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.MAPLE_STANDING_SIGN, ModBlocks.WALL_MAPLE_SIGN));
-    public static final Item HANGING_MAPLE_SIGN = registerItem("maple_hanging_sign",
+    public static final Item HANGING_MAPLE_SIGN = registerItem("maplehangingsign",
             new HangingSignItem(ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN, new FabricItemSettings().maxCount(16)));
 
 

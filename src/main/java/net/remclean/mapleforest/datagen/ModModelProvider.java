@@ -43,7 +43,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAPLE_SYRUP, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAPLE_SAP, Models.GENERATED);
         itemModelGenerator.register(ModItems.ORE_DETECTOR, Models.GENERATED);
-
+        itemModelGenerator.register(ModItems.PELT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ARMOR_PAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BARK, Models.GENERATED);
 
         //itemModelGenerator.register(ModItems.HANGING_MAPLE_SIGN, Models.GENERATED);
         //itemModelGenerator.register(ModItems.MAPLE_SIGN, Models.GENERATED);
