@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "maple-forest:armorpad"
+    },
+    "B": {
+      "item": "maple-forest:bark"
+    },
+    "P": {
+      "item": "maple-forest:pelt"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "AWA",
+    "B B",
+    "P P"
+  ],
+  "result": {
+    "item": "maple-forest:armorpadleggings"
+  },
+  "show_notification": true
+}

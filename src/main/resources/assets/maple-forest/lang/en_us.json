@@ -6,6 +6,11 @@
     "item.maple-forest.armorpad": "Armor Pad",
     "item.maple-forest.bark": "Bark",
 
+    "item.maple-forest.armorplatehelmet": "Hunter's Helmet",
+    "item.maple-forest.armorplatechestplate": "Hunter's Chestplate",
+    "item.maple-forest.armorplateleggings": "Hunter's Leggings",
+    "item.maple-forest.armorplateboots": "Hunter's Boots",
+
     "block.maple-forest.maple_planks": "Maple Planks",
     "block.maple-forest.maple_log": "Maple Log",
     "block.maple-forest.stripped_maple_log": "Stripped Maple Log",

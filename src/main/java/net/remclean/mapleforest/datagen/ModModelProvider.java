@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.item.ModItems;
 
@@ -46,6 +47,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PELT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARMOR_PAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.BARK, Models.GENERATED);
+        
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ARMOR_PAD_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ARMOR_PAD_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ARMOR_PAD_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ARMOR_PAD_BOOTS));
 
         //itemModelGenerator.register(ModItems.HANGING_MAPLE_SIGN, Models.GENERATED);
         //itemModelGenerator.register(ModItems.MAPLE_SIGN, Models.GENERATED);

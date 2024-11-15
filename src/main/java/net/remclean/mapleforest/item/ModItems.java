@@ -3,10 +3,7 @@ package net.remclean.mapleforest.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.HangingSignItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SignItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -35,6 +32,14 @@ public class ModItems {
     public static final Item HANGING_MAPLE_SIGN = registerItem("maplehangingsign",
             new HangingSignItem(ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN, new FabricItemSettings().maxCount(16)));
 
+    public static final Item ARMOR_PAD_HELMET = registerItem("armorpadhelmet",
+            new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ARMOR_PAD_CHESTPLATE = registerItem("armorpadchestplate",
+            new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ARMOR_PAD_LEGGINGS = registerItem("armorpadleggings",
+            new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ARMOR_PAD_BOOTS = registerItem("armorpadboots",
+            new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(MAPLE_SYRUP);

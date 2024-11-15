@@ -37,6 +37,10 @@ public class ModItemGroup {
                         entries.add(ModItems.PELT);
                         entries.add(ModItems.ARMOR_PAD);
                         entries.add(ModItems.BARK);
+                        entries.add(ModItems.ARMOR_PAD_HELMET);
+                        entries.add(ModItems.ARMOR_PAD_CHESTPLATE);
+                        entries.add(ModItems.ARMOR_PAD_LEGGINGS);
+                        entries.add(ModItems.ARMOR_PAD_BOOTS);
 
 
                     }).build());
