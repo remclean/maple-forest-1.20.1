@@ -6,10 +6,10 @@
     "item.maple-forest.armorpad": "Armor Pad",
     "item.maple-forest.bark": "Bark",
 
-    "item.maple-forest.armorplatehelmet": "Hunter's Helmet",
-    "item.maple-forest.armorplatechestplate": "Hunter's Chestplate",
-    "item.maple-forest.armorplateleggings": "Hunter's Leggings",
-    "item.maple-forest.armorplateboots": "Hunter's Boots",
+    "item.maple-forest.armorpadhelmet": "Hunter's Helmet",
+    "item.maple-forest.armorpadchestplate": "Hunter's Chestplate",
+    "item.maple-forest.armorpadleggings": "Hunter's Leggings",
+    "item.maple-forest.armorpadboots": "Hunter's Boots",
 
     "block.maple-forest.maple_planks": "Maple Planks",
     "block.maple-forest.maple_log": "Maple Log",
