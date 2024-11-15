@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
 import net.remclean.mapleforest.block.ModBlocks;
+import net.remclean.mapleforest.item.custom.ModArmorItem;
 import net.remclean.mapleforest.item.custom.OreDetectorItem;
 
 public class ModItems {
@@ -33,7 +34,7 @@ public class ModItems {
             new HangingSignItem(ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN, new FabricItemSettings().maxCount(16)));
 
     public static final Item ARMOR_PAD_HELMET = registerItem("armorpadhelmet",
-            new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item ARMOR_PAD_CHESTPLATE = registerItem("armorpadchestplate",
             new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item ARMOR_PAD_LEGGINGS = registerItem("armorpadleggings",
