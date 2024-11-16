@@ -40,7 +40,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STRING)
                 .input('P', ModItems.PELT)
                 .input('A', ModItems.ARMOR_PAD)
-                .input('W', Items.WHITE_WOOL)
+                .input('W', ItemTags.WOOL)
                 .criterion(hasItem(ModItems.ARMOR_PAD), conditionsFromItem(ModItems.ARMOR_PAD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ARMOR_PAD_HELMET)));
 
@@ -51,7 +51,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STRING)
                 .input('P', ModItems.PELT)
                 .input('A', ModItems.ARMOR_PAD)
-                .input('W', Items.WHITE_WOOL)
+                .input('W', ItemTags.WOOL)
                 .input('B', ModItems.BARK)
                 .criterion(hasItem(ModItems.ARMOR_PAD), conditionsFromItem(ModItems.ARMOR_PAD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ARMOR_PAD_CHESTPLATE)));
@@ -62,7 +62,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("P P")
                 .input('P', ModItems.PELT)
                 .input('A', ModItems.ARMOR_PAD)
-                .input('W', Items.WHITE_WOOL)
+                .input('W', ItemTags.WOOL)
                 .input('B', ModItems.BARK)
                 .criterion(hasItem(ModItems.ARMOR_PAD), conditionsFromItem(ModItems.ARMOR_PAD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ARMOR_PAD_LEGGINGS)));
@@ -72,7 +72,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("P P")
                 .input('P', ModItems.PELT)
                 .input('A', ModItems.ARMOR_PAD)
-                .input('W', Items.WHITE_WOOL)
+                .input('W', ItemTags.WOOL)
                 .criterion(hasItem(ModItems.ARMOR_PAD), conditionsFromItem(ModItems.ARMOR_PAD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ARMOR_PAD_BOOTS)));
 

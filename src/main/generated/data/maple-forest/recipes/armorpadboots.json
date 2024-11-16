@@ -9,7 +9,7 @@
       "item": "maple-forest:pelt"
     },
     "W": {
-      "item": "minecraft:white_wool"
+      "tag": "minecraft:wool"
     }
   },
   "pattern": [
