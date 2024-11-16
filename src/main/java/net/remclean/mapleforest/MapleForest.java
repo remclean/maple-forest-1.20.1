@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.item.ModItemGroup;
+import net.remclean.mapleforest.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import net.fabricmc.api.ModInitializer;
@@ -32,5 +33,7 @@ public class MapleForest implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_SLAB, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_FENCE, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_FENCE_GATE, 5, 20);
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

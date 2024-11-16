@@ -47,6 +47,9 @@ public class ModBlocks {
     public static final Block MAPLE_TRAPDOOR = registerBlock("maple_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
 
+//    public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
+//            new SaplingBlock(new);
+
 
     public static final Identifier MAPLE_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/entity/signs/maple");
     public static final Identifier MAPLE_HANGING_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/entity/signs/hanging/maple");
