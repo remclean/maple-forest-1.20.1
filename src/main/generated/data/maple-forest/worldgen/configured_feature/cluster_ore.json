@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 3,
+    "targets": [
+      {
+        "state": {
+          "Name": "maple-forest:cluster_diamond_ore"
+        },
+        "target": {
+          "block": "minecraft:diamond_ore",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "maple-forest:deepslate_cluster_diamond_ore"
+        },
+        "target": {
+          "block": "minecraft:deepslate_diamond_ore",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    ]
+  }
+}
