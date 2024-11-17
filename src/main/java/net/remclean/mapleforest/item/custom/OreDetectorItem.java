@@ -12,6 +12,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.remclean.mapleforest.block.ModBlocks;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -28,7 +29,7 @@ public class OreDetectorItem extends Item {
             PlayerEntity player = context.getPlayer();
             boolean foundBlock = false;
 
-            for (int i = 0; i <= positionClicked.getY() + 64; i++) {
+            for (int i = 0; i <= positionClicked.getY() + 128; i++) {
                 BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
 
                 if (isValuableBlock(state)) {
@@ -56,7 +57,7 @@ public class OreDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DEEPSLATE_IRON_ORE) || state.isOf(Blocks.DEEPSLATE_DIAMOND_ORE) || state.isOf(Blocks.DIAMOND_ORE) || state.isOf(ModBlocks.CLUSTER_DIAMOND_ORE) || state.isOf(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
     }
 
     @Override

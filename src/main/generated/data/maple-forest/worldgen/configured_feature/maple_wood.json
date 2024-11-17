@@ -6,26 +6,20 @@
     "targets": [
       {
         "state": {
-          "Name": "maple-forest:maple_wood",
-          "Properties": {
-            "axis": "y"
-          }
+          "Name": "maple-forest:cluster_diamond_ore"
         },
         "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:stone_ore_replaceables"
+          "block": "minecraft:diamond_ore",
+          "predicate_type": "minecraft:block_match"
         }
       },
       {
         "state": {
-          "Name": "maple-forest:maple_wood",
-          "Properties": {
-            "axis": "y"
-          }
+          "Name": "maple-forest:deepslate_cluster_diamond_ore"
         },
         "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:deepslate_ore_replaceables"
+          "block": "minecraft:deepslate_diamond_ore",
+          "predicate_type": "minecraft:block_match"
         }
       }
     ]

@@ -19,18 +19,19 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?,?>> MAPLE_WOOD_KEY = registerKey("maple_wood");
+    public static final RegistryKey<ConfiguredFeature<?,?>> CLUSTER_ORE_KEY = registerKey("maple_wood");
 
     public static void bootStrap(Registerable<ConfiguredFeature<?,?>> context) {
-        RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
-        RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
-        //RuleTest diamondOreReplacables = new BlockMatchRuleTest(Blocks.DIAMOND_ORE);
+        //RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
+        //RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest diamondOreReplacables = new BlockMatchRuleTest(Blocks.DIAMOND_ORE);
+        RuleTest deepslateDiamondOreReplacables = new BlockMatchRuleTest(Blocks.DEEPSLATE_DIAMOND_ORE);
 
-        List<OreFeatureConfig.Target> overworldMapleWood =
-                List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.MAPLE_WOOD.getDefaultState()),
-                        OreFeatureConfig.createTarget(deepslateReplacables, ModBlocks.MAPLE_WOOD.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldClusterOre =
+        List.of(OreFeatureConfig.createTarget(diamondOreReplacables, ModBlocks.CLUSTER_DIAMOND_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateDiamondOreReplacables, ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE.getDefaultState()));
 
-        register(context, MAPLE_WOOD_KEY, Feature.ORE, new OreFeatureConfig(overworldMapleWood, 3));
+        register(context, CLUSTER_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldClusterOre, 3));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

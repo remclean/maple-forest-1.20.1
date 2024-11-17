@@ -26,6 +26,9 @@ public class ModModelProvider extends FabricModelProvider {
         maplePool.fence(ModBlocks.MAPLE_FENCE);
         maplePool.fenceGate(ModBlocks.MAPLE_FENCE_GATE);
 
+        bsmg.registerSimpleCubeAll(ModBlocks.CLUSTER_DIAMOND_ORE);
+        bsmg.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
+
         bsmg.registerDoor(ModBlocks.MAPLE_DOOR);
         bsmg.registerTrapdoor(ModBlocks.MAPLE_TRAPDOOR);
 

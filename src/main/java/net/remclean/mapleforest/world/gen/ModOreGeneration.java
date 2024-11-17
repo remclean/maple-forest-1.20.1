@@ -8,6 +8,6 @@ import net.remclean.mapleforest.world.ModPlacedFeatures;
 public class ModOreGeneration {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
-                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.MAPLE_WOOD_PLACED_KEY);
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.CLUSTER_ORE_PLACED_KEY);
     }
 }

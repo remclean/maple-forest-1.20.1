@@ -47,6 +47,11 @@ public class ModBlocks {
     public static final Block MAPLE_TRAPDOOR = registerBlock("maple_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
 
+    public static final Block CLUSTER_DIAMOND_ORE = registerBlock("cluster_diamond_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+    public static final Block DEEPSLATE_CLUSTER_DIAMOND_ORE = registerBlock("deepslate_cluster_diamond_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
 //    public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
 //            new SaplingBlock(new);
 

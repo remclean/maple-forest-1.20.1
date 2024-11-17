@@ -1,5 +1,7 @@
-// 1.20.1	2024-11-16T09:53:54.79262672	maple forest/Tags for minecraft:block
+// 1.20.1	2024-11-17T09:35:51.296684684	maple forest/Tags for minecraft:block
 3326168cecfd00bb20e23314803abfb9908ae612 data/minecraft/tags/blocks/fences.json
+e50d03a7c5330f60e305278937357feca4720791 data/minecraft/tags/blocks/needs_iron_tool.json
 23d2eaf99b73c01e66412438cb97fac97bfd5043 data/minecraft/tags/blocks/logs_that_burn.json
 a99650d10310eedccb0f7ab3b807ba525a0b59fe data/minecraft/tags/blocks/mineable/axe.json
+e50d03a7c5330f60e305278937357feca4720791 data/minecraft/tags/blocks/mineable/pickaxe.json
 fa03efe80f3bca9b9bfa090638a3acf283dc187c data/minecraft/tags/blocks/fence_gates.json

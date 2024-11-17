@@ -25,6 +25,9 @@
     "block.maple-forest.maple_door": "Maple Door",
     "block.maple-forest.maple_trapdoor": "Maple Trapdoor",
 
+    "block.maple-forest.cluster_diamond_ore": "Cluster Diamond Ore",
+    "block.maple-forest.deepslate_cluster_diamond_ore": "Deepslate Cluster Diamond Ore",
+
 
     "block.maple-forest.maple_standing_sign": "Maple Sign",
     "block.maple-forest.maple_wall_sign": "Maple Sign",

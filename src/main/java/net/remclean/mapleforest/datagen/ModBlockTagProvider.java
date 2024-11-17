@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.ItemTags;
 import net.remclean.mapleforest.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
@@ -19,6 +18,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.MAPLE_LOG)
                 .add(ModBlocks.MAPLE_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.CLUSTER_DIAMOND_ORE)
+                .add(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.CLUSTER_DIAMOND_ORE)
+                .add(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE);
