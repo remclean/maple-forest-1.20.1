@@ -1,5 +1,7 @@
 package net.remclean.mapleforest.item;
 
+import com.terraformersmc.terraform.boat.api.TerraformBoatTypeRegistry;
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -9,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
 import net.remclean.mapleforest.block.ModBlocks;
+import net.remclean.mapleforest.entity.ModBoats;
 import net.remclean.mapleforest.item.custom.ModArmorItem;
 import net.remclean.mapleforest.item.custom.OreDetectorItem;
 
@@ -41,6 +44,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item ARMOR_PAD_BOOTS = registerItem("armorpadboots",
             new ArmorItem(ModArmorMaterials.ARMOR_PAD, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item MAPLE_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MAPLE_BOAT_ID, ModBoats.MAPLE_BOAT_KEY, false);
+    public static final Item MAPLE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MAPLE_CHEST_BOAT_ID, ModBoats.MAPLE_BOAT_KEY, true);
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(MAPLE_SYRUP);

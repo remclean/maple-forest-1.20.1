@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-17T09:35:51.297652956	maple forest/Recipes
+// 1.20.1	2024-11-17T15:10:09.011620668	maple forest/Recipes
 fbe5da6a6914c58b42c5793d212005293a962e03 data/maple-forest/recipes/maple_trapdoor.json
 f87cac9f2b07d1e194cce659ef64790ca61b526b data/maple-forest/advancements/recipes/redstone/maple_button.json
 552427a3a66dc273ad6c68643e3db24ecb081566 data/maple-forest/recipes/maple_fence_gate.json
@@ -10,11 +10,11 @@ f87cac9f2b07d1e194cce659ef64790ca61b526b data/maple-forest/advancements/recipes/
 5d3d299918c23665ef7392e1ac1ad1a2c6e25529 data/maple-forest/advancements/recipes/combat/armorpadchestplate.json
 ad3627a5c12c8b0c26909b5eb46f9548d12907fb data/maple-forest/recipes/oredetector.json
 b0d30b1b84c2b94bcabb1dd3bdf48db7a7d161fc data/maple-forest/advancements/recipes/building_blocks/maple_planks.json
-525e984dec99be4d4dc25cd1a7395aca6cfe97f9 data/maple-forest/recipes/armorpadboots.json
 5a9309d53e53366988f262a30fd487de133b0445 data/maple-forest/recipes/armorpadchestplate.json
+525e984dec99be4d4dc25cd1a7395aca6cfe97f9 data/maple-forest/recipes/armorpadboots.json
 675146bf65c593d947bc233616f7537266a32ffa data/maple-forest/recipes/armorpadhelmet.json
-88dfac9d0ffc70ca7c3c4a14c65e0872b1d8d717 data/maple-forest/recipes/maple_door.json
 aa69b784ecde6cfab2b3f67665e5c6dfabc4cece data/maple-forest/advancements/recipes/redstone/maple_fence_gate.json
+88dfac9d0ffc70ca7c3c4a14c65e0872b1d8d717 data/maple-forest/recipes/maple_door.json
 6e26283593e80d9657a9105a80975064d185cc7e data/maple-forest/advancements/recipes/building_blocks/maple_stairs.json
 25e0b6f4157f6baaee6c77cd4d33294ca739df08 data/maple-forest/recipes/maple_slab.json
 69759b5836199d349ce9b076798d8f9605187d04 data/maple-forest/recipes/maple_fence.json

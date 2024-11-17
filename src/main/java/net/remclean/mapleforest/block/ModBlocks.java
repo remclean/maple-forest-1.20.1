@@ -15,6 +15,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
+import net.remclean.mapleforest.world.tree.MapleSaplingGenerator;
 
 public class ModBlocks {
     public static final Block MAPLE_PLANKS = registerBlock("maple_planks",
@@ -52,8 +53,8 @@ public class ModBlocks {
     public static final Block DEEPSLATE_CLUSTER_DIAMOND_ORE = registerBlock("deepslate_cluster_diamond_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
 
-//    public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
-//            new SaplingBlock(new);
+    public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
+            new SaplingBlock(new MapleSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
 
     public static final Identifier MAPLE_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/entity/signs/maple");

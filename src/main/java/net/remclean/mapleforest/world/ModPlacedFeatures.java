@@ -15,7 +15,7 @@ import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static final RegistryKey<PlacedFeature> CLUSTER_ORE_PLACED_KEY = registerKey("maple_wood_placed");
+    public static final RegistryKey<PlacedFeature> CLUSTER_ORE_PLACED_KEY = registerKey("cluster_ore_placed");
 
     public static void bootStrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);

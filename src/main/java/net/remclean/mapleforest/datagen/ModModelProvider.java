@@ -26,6 +26,8 @@ public class ModModelProvider extends FabricModelProvider {
         maplePool.fence(ModBlocks.MAPLE_FENCE);
         maplePool.fenceGate(ModBlocks.MAPLE_FENCE_GATE);
 
+        bsmg.registerTintableCross(ModBlocks.MAPLE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
         bsmg.registerSimpleCubeAll(ModBlocks.CLUSTER_DIAMOND_ORE);
         bsmg.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
 
@@ -50,7 +52,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PELT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARMOR_PAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.BARK, Models.GENERATED);
-        
+
+        itemModelGenerator.register(ModItems.MAPLE_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAPLE_CHEST_BOAT, Models.GENERATED);
+
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ARMOR_PAD_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ARMOR_PAD_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ARMOR_PAD_LEGGINGS));

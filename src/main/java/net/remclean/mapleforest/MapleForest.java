@@ -3,6 +3,7 @@ package net.remclean.mapleforest;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.remclean.mapleforest.block.ModBlocks;
+import net.remclean.mapleforest.entity.ModBoats;
 import net.remclean.mapleforest.item.ModItemGroup;
 import net.remclean.mapleforest.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ public class MapleForest implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBoats.registerBoats();
 
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_LOG, ModBlocks.STRIPPED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_WOOD);

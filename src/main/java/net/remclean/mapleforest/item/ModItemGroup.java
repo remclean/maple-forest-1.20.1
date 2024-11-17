@@ -18,6 +18,7 @@ public class ModItemGroup {
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModItems.MAPLE_SAP);
                         entries.add(ModItems.ORE_DETECTOR);
+                        entries.add(ModBlocks.MAPLE_SAPLING);
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.STRIPPED_MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_WOOD);
@@ -34,6 +35,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
                         entries.add(ModItems.MAPLE_SIGN);
                         entries.add(ModItems.HANGING_MAPLE_SIGN);
+                        entries.add(ModItems.MAPLE_BOAT);
+                        entries.add(ModItems.MAPLE_CHEST_BOAT);
                         entries.add(ModItems.PELT);
                         entries.add(ModItems.ARMOR_PAD);
                         entries.add(ModItems.BARK);

@@ -11,6 +11,9 @@
     "item.maple-forest.armorpadleggings": "Hunter's Leggings",
     "item.maple-forest.armorpadboots": "Hunter's Boots",
 
+    "item.maple-forest.maple_boat": "Maple Boat",
+    "item.maple-forest.maple_chest_boat": "Maple Chest Boat",
+
     "block.maple-forest.maple_planks": "Maple Planks",
     "block.maple-forest.maple_log": "Maple Log",
     "block.maple-forest.stripped_maple_log": "Stripped Maple Log",
@@ -24,10 +27,10 @@
     "block.maple-forest.maple_fence_gate": "Maple Fence Gate",
     "block.maple-forest.maple_door": "Maple Door",
     "block.maple-forest.maple_trapdoor": "Maple Trapdoor",
+    "block.maple-forest.maple_sapling": "Maple Sapling",
 
     "block.maple-forest.cluster_diamond_ore": "Cluster Diamond Ore",
     "block.maple-forest.deepslate_cluster_diamond_ore": "Deepslate Cluster Diamond Ore",
-
 
     "block.maple-forest.maple_standing_sign": "Maple Sign",
     "block.maple-forest.maple_wall_sign": "Maple Sign",
