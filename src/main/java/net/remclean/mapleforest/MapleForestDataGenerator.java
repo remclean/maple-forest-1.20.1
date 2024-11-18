@@ -7,6 +7,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.remclean.mapleforest.datagen.*;
 import net.remclean.mapleforest.world.ModConfiguredFeatures;
 import net.remclean.mapleforest.world.ModPlacedFeatures;
+import net.remclean.mapleforest.world.biome.ModBiomes;
 
 public class MapleForestDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -26,5 +27,6 @@ public class MapleForestDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootStrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootStrap);
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::bootStrap);
 	}
 }

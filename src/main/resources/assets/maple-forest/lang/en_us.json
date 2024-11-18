@@ -37,6 +37,8 @@
     "block.maple-forest.maple_hanging_sign": "Maple Hanging Sign",
     "block.maple-forest.maple_wall_hanging_sign": "Maple Wall Hanging Sign",
 
+    "biome.maple-forest.maple_forest_biome": "Maple Forest",
+
     "itemgroup.mapleforest": "Maple Forest",
 
     "tooltip.maple-forest.ore_detector": "Locates ores"

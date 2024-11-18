@@ -1,4 +1,6 @@
-// 1.20.1	2024-11-17T15:10:09.014453195	maple forest/World Gen
+// 1.20.2	2024-11-17T22:00:28.311690524	maple forest/World Gen
+9cd827559497b41a0f062e69c526ff00f1cb3f40 data/maple-forest/worldgen/placed_feature/maple_placed.json
 da3ec92346df029a9d4d8fdc29e562b2602db8cd data/maple-forest/worldgen/configured_feature/maple.json
+cde56b9830be3f47fccaeabe7ff053606b95b0cd data/maple-forest/worldgen/biome/maple_forest_biome.json
 034d32e3e5768ed52cb40d803f7137e4b73733fb data/maple-forest/worldgen/configured_feature/cluster_ore.json
 5cab62043b6a764de6305bacb789334e885a6424 data/maple-forest/worldgen/placed_feature/cluster_ore_placed.json

@@ -22,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_armorpad",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_armorpad"
     ]
   ],
   "rewards": {
