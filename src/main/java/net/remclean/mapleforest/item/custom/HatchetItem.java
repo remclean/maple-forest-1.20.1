@@ -9,11 +9,13 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.Registry;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.remclean.mapleforest.block.ModBlocks;
@@ -22,17 +24,19 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class HatchetItem extends Item {
-    public HatchetItem(Settings settings) {
-        super(settings);
+public class HatchetItem extends net.minecraft.item.AxeItem {
+
+    public HatchetItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
+        super(material, attackDamage, attackSpeed, settings);
     }
+
+
 
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
         if(!context.getWorld().isClient()) {
             BlockPos positionClicked = context.getBlockPos();
             PlayerEntity player = context.getPlayer();
-
             BlockState state = context.getWorld().getBlockState(positionClicked);
 
             if(isLog(state)) {
@@ -42,20 +46,18 @@ public class HatchetItem extends Item {
 
 
 
-        return ActionResult.SUCCESS;
+        return super.useOnBlock(context);
+    }
+
+    private void stripLog(BlockPos posClicked, BlockState state, ServerPlayerEntity player) {
+//        BlockState newState = new BlockState(ModBlocks.STRIPPED_MAPLE_LOG, )
+//        Block replace = new Block.replace(state, newState, player.getWorld(), posClicked, 0);
     }
 
     private void spawnBark(ServerPlayerEntity player, BlockPos posClicked) {
-          ItemStack bark = new ItemStack(ModItems.BARK);
+          ItemStack bark = new ItemStack(ModItems.BARK,  1 + (int) (Math.random() * 2));
 
-          Block.dropStack( , posClicked.toCenterPos(), bark);
-
-          ItemEntity barkItem = new ItemEntity(, posClicked.getX(), posClicked.getY(), posClicked.getZ(), bark);
-    }
-
-
-    private void outputValuableCoordinates(BlockPos blockPos, PlayerEntity player, Block block) {
-        player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() + " at (" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"), true);
+          ItemScatterer.spawn(player.getWorld(), posClicked.getX(), posClicked.getY(), posClicked.getZ(), bark);
     }
 
     private boolean isLog(BlockState state) {
