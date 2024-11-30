@@ -56,12 +56,10 @@ public class ModBlocks {
     public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
             new SaplingBlock(new MapleSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
-
-    public static final Identifier MAPLE_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/entity/signs/maple");
-    public static final Identifier MAPLE_HANGING_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/entity/signs/hanging/maple");
+    public static final Identifier MAPLE_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "entity/signs/maple");
+    public static final Identifier MAPLE_HANGING_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "entity/signs/hanging/maple");
     public static final Identifier MAPLE_HANGING_GUI_SIGN_TEXTURE = new Identifier(MapleForest.MOD_ID, "textures/gui/hanging_signs/maple");
-
-    public static final Block MAPLE_STANDING_SIGN = Registry.register(Registries.BLOCK, new Identifier(MapleForest.MOD_ID, "maple_standing_sign"),
+    public static final Block STANDING_MAPLE_SIGN = Registry.register(Registries.BLOCK, new Identifier(MapleForest.MOD_ID, "maple_standing_sign"),
             new TerraformSignBlock(MAPLE_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN)));
     public static final Block WALL_MAPLE_SIGN = Registry.register(Registries.BLOCK, new Identifier(MapleForest.MOD_ID, "maple_wall_sign"),
             new TerraformWallSignBlock(MAPLE_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)));
@@ -69,11 +67,9 @@ public class ModBlocks {
             new TerraformHangingSignBlock(MAPLE_HANGING_SIGN_TEXTURE, MAPLE_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
     public static final Block WALL_HANGING_MAPLE_SIGN = Registry.register(Registries.BLOCK, new Identifier(MapleForest.MOD_ID, "maple_wall_hanging_sign"),
             new TerraformWallHangingSignBlock(MAPLE_HANGING_SIGN_TEXTURE, MAPLE_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
-
     public static final BlockFamily MAPLE_FAMILY = BlockFamilies.register(ModBlocks.MAPLE_PLANKS)
-            .sign(ModBlocks.MAPLE_STANDING_SIGN, ModBlocks.WALL_MAPLE_SIGN)
+            .sign(ModBlocks.STANDING_MAPLE_SIGN, ModBlocks.WALL_MAPLE_SIGN)
             .group("wooden").unlockCriterionName("has_planks").build();
-
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

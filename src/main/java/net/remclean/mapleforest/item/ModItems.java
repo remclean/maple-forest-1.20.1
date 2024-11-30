@@ -35,9 +35,9 @@ public class ModItems {
     public static final Item HATCHET = registerItem("hatchet",
             new HatchetItem(ToolMaterials.IRON, 2.5f, 0f, new FabricItemSettings().maxDamage(64)));
 
-    public static final Item MAPLE_SIGN = registerItem("maplesign",
-            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.MAPLE_STANDING_SIGN, ModBlocks.WALL_MAPLE_SIGN));
-    public static final Item HANGING_MAPLE_SIGN = registerItem("maplehangingsign",
+    public static final Item MAPLE_SIGN = registerItem("maple_sign",
+            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_MAPLE_SIGN, ModBlocks.WALL_MAPLE_SIGN));
+    public static final Item HANGING_MAPLE_SIGN = registerItem("maple_hanging_sign",
             new HangingSignItem(ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN, new FabricItemSettings().maxCount(16)));
 
     public static final Item ARMOR_PAD_HELMET = registerItem("armorpadhelmet",

@@ -1,10 +1,8 @@
-// 1.20.2	2024-11-29T18:24:39.236659341	maple forest/Model Definitions
+// 1.20.2	2024-11-30T14:55:25.172978463	maple forest/Model Definitions
 3179d9177c64ebfb9f054d02780b765c2e11d005 assets/maple-forest/models/item/armorpadboots_redstone_trim.json
 616a92c64d1cc3f7213ad96a65b07621510e368b assets/maple-forest/models/item/armorpadhelmet_lapis_trim.json
 d003710686f11b89ecc17f5c5ed87e44f15099e2 assets/maple-forest/models/item/armorpadchestplate_gold_trim.json
-939fe03dac34b6593b08a45e928c60ee778e7f1a assets/maple-forest/blockstates/maple_wall_hanging_sign.json
 e53844fbe1e559e9197266d3140a70adbbb9c88b assets/maple-forest/models/item/armorpadboots_copper_trim.json
-50fea058c4b09f61d91aa6921612da95b40bfd6a assets/maple-forest/models/item/maplehangingsign.json
 560083686520b21ff5743d6ef20bec2b2f22e3da assets/maple-forest/blockstates/maple_stairs.json
 2279a6260dbffafb57c4633263db1700b1ee5fb0 assets/maple-forest/models/item/maple_trapdoor.json
 83fe4458859c2da8210df7353edb852f529fc543 assets/maple-forest/models/block/maple_log_horizontal.json
@@ -14,8 +12,8 @@ b04b6691dd08ad69ec4f4f8da00a281b7741373f assets/maple-forest/models/block/deepsl
 713a7015f961fa069a0898ab0532f02bc9bc6493 assets/maple-forest/models/item/stripped_maple_wood.json
 8d8c562c27260471839c1aa6baefe06596263508 assets/maple-forest/models/item/armorpadleggings_redstone_trim.json
 fdcdc1ea6ab9f5a6351203bb784bd2efd909de9b assets/maple-forest/blockstates/maple_slab.json
-195edb9710028b39137efca535041ce15fb04727 assets/maple-forest/models/item/armorpadchestplate_redstone_trim.json
 5c4a541269f8e59768023170570cb97d66160498 assets/maple-forest/models/block/maple_pressure_plate.json
+195edb9710028b39137efca535041ce15fb04727 assets/maple-forest/models/item/armorpadchestplate_redstone_trim.json
 e142fa657c28ff0b811ead62fea8c3a4662f9dfd assets/maple-forest/models/item/armorpadchestplate_iron_trim.json
 574c7a3ab54130e98f192f31e33740984d7cedb1 assets/maple-forest/models/item/armorpadleggings_lapis_trim.json
 ca580a23bd7097221884e1cb77edce441b903256 assets/maple-forest/models/item/armorpadhelmet_diamond_trim.json
@@ -31,12 +29,11 @@ f1a746d1b14ba88e51bfbc4dfcafda1f0b757a29 assets/maple-forest/models/item/deepsla
 fb830627cbcfc38af189fbff6fe5e62c739b8bf0 assets/maple-forest/models/block/maple_button_inventory.json
 f3adf2f0b4908c08f5107825f5579bf25bd17630 assets/maple-forest/blockstates/maple_wall_sign.json
 2b84e5c2a6e7e55141e97eb6ca8a4de2f2c8c5ef assets/maple-forest/models/item/armorpadboots_diamond_trim.json
+a49dc63e378edea72c3b6103fbb898cc3c289d28 assets/maple-forest/models/item/armorpad.json
 97928970731fb2eacafd60bea86c9f9ee3f49036 assets/maple-forest/blockstates/stripped_maple_log.json
 13067dc3cedfee34bf8dd7eeb5fb0a6347e89d55 assets/maple-forest/blockstates/stripped_maple_wood.json
-a49dc63e378edea72c3b6103fbb898cc3c289d28 assets/maple-forest/models/item/armorpad.json
 cdbe5cebcc0c3e221286a6c846e6293e43b8ebee assets/maple-forest/models/item/maplesyrup.json
 4ef32984a53e95f2250d44ac3186e34a5ac8267c assets/maple-forest/models/item/armorpadleggings_amethyst_trim.json
-939fe03dac34b6593b08a45e928c60ee778e7f1a assets/maple-forest/blockstates/maple_hanging_sign.json
 6df36d6e5b6fde975e35208d0599a96710d9dda1 assets/maple-forest/models/item/maple_sapling.json
 b48b64043df37c423903509c9eb0a8f67c984448 assets/maple-forest/models/block/maple_door_bottom_right_open.json
 5d9421dc0f43b6c3b371e8f32c6cb56110721d69 assets/maple-forest/models/item/armorpadleggings_netherite_trim.json
@@ -64,7 +61,6 @@ fb35a5df63cd3fb3980037dd16f69eff3bb710fb assets/maple-forest/models/block/stripp
 75cba8863df60e46e1e6b8d1a0275a70444348e2 assets/maple-forest/models/item/armorpadhelmet.json
 69f2fd3d75631cff7364fa3c00a5640e1c9c11b3 assets/maple-forest/models/block/maple_sapling.json
 c3f21e19d4854e3fe2abe6ac376c5e1cc6f52732 assets/maple-forest/blockstates/maple_planks.json
-cc8ee97e2ad5230185eccbb3fd5acd3b010d79a7 assets/maple-forest/models/item/maplesign.json
 9e53ef1595a4041849e4c4614decfc4d7e8a1ce0 assets/maple-forest/models/block/maple_button_pressed.json
 8492d2beb3891d954ddf08486474a06cd7c973c7 assets/maple-forest/models/block/maple_trapdoor_top.json
 f040d24a9f80a70188433ffc418d68448af62e7d assets/maple-forest/models/item/bark.json
@@ -78,9 +74,9 @@ ca3dc13b41af0cad4076516feb80e455cba846e8 assets/maple-forest/models/item/armorpa
 733e9ab93358d715db74f8fb7724a9878fdc2277 assets/maple-forest/models/block/maple_planks.json
 9314fc993c4993dcfac8dd6f3df335aaa34f41a9 assets/maple-forest/models/item/maple_fence_gate.json
 b73abf58d29ded4ddf6cd8bd7974784af15e5b92 assets/maple-forest/models/block/maple_fence_gate_wall_open.json
+a3576efa42f8606423002901ebdb21688d04d2cc assets/maple-forest/models/item/maple_hanging_sign.json
 2bcb740974c3f7fbf9998e39980edf7afb27a16a assets/maple-forest/models/item/stripped_maple_log.json
 20a931839be53b9c3346acc8e3b053dff2a246fd assets/maple-forest/models/item/armorpadhelmet_emerald_trim.json
-ba562e822613d18f9c1eb2378c981a27026fda1a assets/maple-forest/models/block/maple_hanging_sign.json
 b3679a67ec8bd1eb076c49c6ea4012302ba2dc4a assets/maple-forest/models/item/maple_planks.json
 da77cdd270f99fefcb6023f94e1bbd3ff85d7bea assets/maple-forest/blockstates/maple_fence.json
 bfaf5e3b36dd1a2239bbbe24e4677b630ad89312 assets/maple-forest/models/item/maple_log.json
@@ -127,6 +123,7 @@ dfb3f18078442d052366dc1e6df6d2a031886eba assets/maple-forest/models/block/maple_
 b2c4920b30d509c6b645afdcc4704d9b3fddd363 assets/maple-forest/models/item/armorpadhelmet_quartz_trim.json
 bf2fe1aba7e9d0771b85bc8c6c62fd2bf4c57f8a assets/maple-forest/models/block/maple_trapdoor_open.json
 fb3c67f18f43f1bb2a68fb81c92c5f61358809fe assets/maple-forest/models/item/maple_pressure_plate.json
+718d49b65134cfd4a6d98b6e7e4b541fe1da9e68 assets/maple-forest/models/item/maple_sign.json
 07aac4bf249d182d580a99effbf3e030cf7046a3 assets/maple-forest/models/item/armorpadleggings.json
 271f6bd55014b2f94b8d20a5cca70a2085a33005 assets/maple-forest/models/item/armorpadchestplate_copper_trim.json
 b8a1548e9d5548e1d85a11901c0aa0d488a34cfa assets/maple-forest/models/item/armorpadchestplate_diamond_trim.json
