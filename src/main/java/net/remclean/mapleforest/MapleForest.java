@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.entity.ModBoats;
 import net.remclean.mapleforest.item.ModItemGroup;
+import net.remclean.mapleforest.util.ModLootTableModifiers;
 import net.remclean.mapleforest.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,8 @@ public class MapleForest implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBoats.registerBoats();
+
+		ModLootTableModifiers.modifyLootTables();
 
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_LOG, ModBlocks.STRIPPED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_WOOD);
