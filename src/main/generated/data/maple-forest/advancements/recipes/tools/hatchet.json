@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_maple_log": {
+    "has_iron_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "maple-forest:maple_log"
+              "minecraft:iron_ingot"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "maple-forest:bark"
+        "recipe": "minecraft:hatchet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_maple_log"
+      "has_iron_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "maple-forest:bark"
+      "minecraft:hatchet"
     ]
   },
   "sends_telemetry_event": false

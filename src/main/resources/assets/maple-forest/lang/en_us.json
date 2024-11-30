@@ -5,6 +5,7 @@
     "item.maple-forest.pelt": "Pelt",
     "item.maple-forest.armorpad": "Armor Pad",
     "item.maple-forest.bark": "Bark",
+    "item.maple-forest.hatchet": "Hatchet",
 
     "item.maple-forest.armorpadhelmet": "Hunter's Helmet",
     "item.maple-forest.armorpadchestplate": "Hunter's Chestplate",
@@ -41,5 +42,6 @@
 
     "itemgroup.mapleforest": "Maple Forest",
 
-    "tooltip.maple-forest.ore_detector": "Locates ores"
+    "tooltip.maple-forest.ore_detector": "Locates ores",
+    "tooltip.maple-forest.hatchet": "Strip Logs for Bark"
 }

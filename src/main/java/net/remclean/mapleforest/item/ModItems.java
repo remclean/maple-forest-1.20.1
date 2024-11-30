@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
 import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.entity.ModBoats;
+import net.remclean.mapleforest.item.custom.HatchetItem;
 import net.remclean.mapleforest.item.custom.ModArmorItem;
 import net.remclean.mapleforest.item.custom.OreDetectorItem;
 
@@ -26,10 +27,14 @@ public class ModItems {
     public static final Item ARMOR_PAD = registerItem("armorpad",
             new Item(new FabricItemSettings()));
     public static final Item BARK = registerItem("bark",
-            new Item(new FabricItemSettings()));
+            new Item(new FabricItemSettings().recipeRemainder(ModItems.PELT)));
+
 
     public static final Item ORE_DETECTOR = registerItem("oredetector",
             new OreDetectorItem(new FabricItemSettings().maxDamage(64)));
+
+    public static final Item HATCHET = registerItem("hatchet",
+            new HatchetItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item MAPLE_SIGN = registerItem("maplesign",
             new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.MAPLE_STANDING_SIGN, ModBlocks.WALL_MAPLE_SIGN));

@@ -46,6 +46,7 @@ public class ModItemGroup {
                         entries.add(ModItems.ARMOR_PAD_BOOTS);
                         entries.add(ModBlocks.CLUSTER_DIAMOND_ORE);
                         entries.add(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
+                        entries.add(ModItems.HATCHET);
 
 
                     }).build());

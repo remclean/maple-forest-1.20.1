@@ -3,7 +3,6 @@ package net.remclean.mapleforest.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
-import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
@@ -13,8 +12,6 @@ import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.item.ModItems;
-
-import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
     public ModRecipeProvider(FabricDataOutput output) {
@@ -77,16 +74,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ARMOR_PAD), conditionsFromItem(ModItems.ARMOR_PAD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ARMOR_PAD_BOOTS)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.HATCHET, 1)
+                .pattern(" IS")
+                .pattern(" SM")
+                .pattern("S  ")
+                .input('I', Items.IRON_INGOT)
+                .input('M', Items.IRON_NUGGET)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HATCHET)));
+
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ARMOR_PAD, 1).input(ModItems.PELT).input(Items.STRING).input(ModItems.BARK).criterion(FabricRecipeProvider.hasItem(ModBlocks.MAPLE_LOG),
                 FabricRecipeProvider.conditionsFromItem(ModBlocks.MAPLE_LOG)).offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAPLE_PLANKS, 4).input(ModBlocks.MAPLE_LOG).criterion(FabricRecipeProvider.hasItem(ModBlocks.MAPLE_LOG),
                 FabricRecipeProvider.conditionsFromItem(ModBlocks.MAPLE_LOG)).offerTo(exporter);
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BARK, 4).input(ItemTags.LOGS).input(ItemTags.AXES).criterion(FabricRecipeProvider.hasItem(ModBlocks.MAPLE_LOG),
-                FabricRecipeProvider.conditionsFromItem(ModBlocks.MAPLE_LOG)).offerTo(exporter);
-
 
         createStairsRecipe(ModBlocks.MAPLE_STAIRS, Ingredient.ofItems(ModBlocks.MAPLE_PLANKS)).criterion(FabricRecipeProvider.hasItem(ModBlocks.MAPLE_PLANKS),
                 FabricRecipeProvider.conditionsFromItem(ModBlocks.MAPLE_PLANKS)).offerTo(exporter);

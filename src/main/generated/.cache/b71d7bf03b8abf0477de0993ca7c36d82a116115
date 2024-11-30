@@ -1,4 +1,4 @@
-// 1.20.2	2024-11-17T22:00:28.309026373	maple forest/Recipes
+// 1.20.2	2024-11-29T18:24:39.23531939	maple forest/Recipes
 fbe5da6a6914c58b42c5793d212005293a962e03 data/maple-forest/recipes/maple_trapdoor.json
 2069c51dfb88847083efc3071895ec7c755440f7 data/maple-forest/advancements/recipes/redstone/maple_button.json
 552427a3a66dc273ad6c68643e3db24ecb081566 data/maple-forest/recipes/maple_fence_gate.json
@@ -20,14 +20,14 @@ c379f8fe05a7b796e063cfe3033fb1b91aa33a2a data/maple-forest/advancements/recipes/
 69759b5836199d349ce9b076798d8f9605187d04 data/maple-forest/recipes/maple_fence.json
 36171815d99dc87e25509a48b23475aea739406f data/maple-forest/recipes/maple_button.json
 d7aa8451705e29726871c5ab18ebbe757851ef44 data/maple-forest/advancements/recipes/combat/armorpadboots.json
-54127f7a767bc82400d2df34af3d4cd86b9fc872 data/maple-forest/recipes/bark.json
+8b62c33d6666e7b71a58327d05e998148a57cc37 data/maple-forest/recipes/hatchet.json
 2e5d7389ac7d628cc84c835bc40eb5028bee8650 data/maple-forest/recipes/maple_planks.json
 d5d925cc0afb8cf45eb72f7f046236d93bcf7a04 data/maple-forest/recipes/maple_stairs.json
 4fc4b0c586ce3e40dd61a95d228e51a4da3578ed data/maple-forest/advancements/recipes/building_blocks/maple_slab.json
 61e98e82dd7d91e7320f8e82c337c23b1bc2755c data/maple-forest/advancements/recipes/redstone/maple_door.json
 083dca1753180db68c644bea00609f4fccfa34d7 data/maple-forest/advancements/recipes/combat/armorpadhelmet.json
+2116f9a841a146a5f607bff6c6c9411b2fa52937 data/maple-forest/advancements/recipes/tools/hatchet.json
 f0f9e8cb879a064bb57fc3cd0f04ed5c2c181128 data/maple-forest/advancements/recipes/tools/oredetector.json
 f906c258c3c36cce9f5357a521143804a25b445e data/maple-forest/advancements/recipes/decorations/maple_fence.json
 17b24b3578c64bb909645f4f6d2b3a6b58d7b72e data/maple-forest/advancements/recipes/combat/armorpadleggings.json
 0a887b04b77b4a6f54d9147d7194be0346e72b16 data/maple-forest/recipes/maple_pressure_plate.json
-4092967058c039c9c462f910a199c1a7e40cab6b data/maple-forest/advancements/recipes/misc/bark.json

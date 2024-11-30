@@ -52,6 +52,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PELT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARMOR_PAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.BARK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HATCHET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.MAPLE_BOAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAPLE_CHEST_BOAT, Models.GENERATED);
