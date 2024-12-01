@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -13,10 +14,14 @@ import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.item.ModItems;
 
+import java.util.List;
+
 public class ModRecipeProvider extends FabricRecipeProvider {
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
     }
+
+    private static final List<ItemConvertible> SAP = List.of(ModItems.MAPLE_SAP);
 
     @Override
     public void generate(RecipeExporter exporter) {
@@ -83,6 +88,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HATCHET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModBlocks.TAP, 1)
+                .pattern("IM")
+                .input('I', Items.IRON_INGOT)
+                .input('M', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TAP)));
+
+        offerSmelting(exporter, SAP, RecipeCategory.MISC, ModItems.MAPLE_SYRUP,
+                0.7f, 800, "maple");
 
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ARMOR_PAD, 1).input(ModItems.PELT).input(Items.STRING).input(ModItems.BARK).criterion(FabricRecipeProvider.hasItem(ModBlocks.MAPLE_LOG),

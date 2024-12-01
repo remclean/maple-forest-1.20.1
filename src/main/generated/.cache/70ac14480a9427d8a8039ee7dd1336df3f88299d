@@ -1,7 +1,7 @@
-// 1.20.2	2024-11-30T18:47:34.985085531	maple forest/Block Loot Tables
+// 1.20.2	2024-12-01T09:14:52.785362458	maple forest/Block Loot Tables
 5bb57d072763a183088636184ee3a0ff6286caf4 data/maple-forest/loot_tables/blocks/maple_door.json
-5632c281669b558ac018bdcb2feda6653170b8b8 data/maple-forest/loot_tables/blocks/maple_slab.json
 8373e9df44a0e6f8bdc2dc48e05b322b158f7f7b data/maple-forest/loot_tables/blocks/maple_sapling.json
+5632c281669b558ac018bdcb2feda6653170b8b8 data/maple-forest/loot_tables/blocks/maple_slab.json
 e912d45d1d755bdc033fdb2231b2213313ba0578 data/maple-forest/loot_tables/blocks/stripped_maple_wood.json
 b6e778bdd3b2f2a87057f1abfbae622184699d87 data/maple-forest/loot_tables/blocks/deepslate_cluster_diamond_ore.json
 2b8b79a41ea92b43235541ca214a1745f34c572c data/maple-forest/loot_tables/blocks/maple_stairs.json

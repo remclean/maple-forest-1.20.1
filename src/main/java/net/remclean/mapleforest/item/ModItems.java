@@ -17,9 +17,9 @@ import net.remclean.mapleforest.item.custom.OreDetectorItem;
 
 public class ModItems {
     public static final Item MAPLE_SYRUP = registerItem("maplesyrup",
-            new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SYRUP)));
+            new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SYRUP).maxCount(16)));
     public static final Item MAPLE_SAP = registerItem("maplesap",
-            new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SAP)));
+            new Item(new FabricItemSettings().food(ModFoodCompontents.MAPLE_SAP).maxCount(16)));
 
     public static final Item PELT = registerItem("pelt",
             new Item(new FabricItemSettings()));

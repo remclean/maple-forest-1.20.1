@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_maplesap": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "maple-forest:maplesap"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:maplesyrup_from_smelting_maplesap"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_maplesap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:maplesyrup_from_smelting_maplesap"
+    ]
+  },
+  "sends_telemetry_event": false
+}
