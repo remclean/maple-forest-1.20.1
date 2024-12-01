@@ -15,6 +15,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
+import net.remclean.mapleforest.block.custom.TapBlock;
 import net.remclean.mapleforest.world.tree.MapleSaplingGenerator;
 
 public class ModBlocks {
@@ -28,6 +29,9 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
     public static final Block STRIPPED_MAPLE_WOOD = registerBlock("stripped_maple_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
+
+    public static final Block TAP = registerBlock("tap",
+            new TapBlock(FabricBlockSettings.copyOf(Blocks.TRIPWIRE_HOOK).nonOpaque()));
 
     public static final Block MAPLE_LEAVES = registerBlock("maple_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));

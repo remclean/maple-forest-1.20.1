@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "maple-forest:block/tap",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "maple-forest:block/tap"
+    },
+    "facing=west": {
+      "model": "maple-forest:block/tap",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "maple-forest:block/tap",
+      "y": 270
+    }
+  }
+}
