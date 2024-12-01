@@ -45,6 +45,7 @@
 
     "itemgroup.mapleforest": "Maple Forest",
 
-    "tooltip.maple-forest.ore_detector": "Locates ores",
-    "tooltip.maple-forest.hatchet": "Strip Logs for Bark"
+    "tooltip.maple-forest.ore_detector": "Locates Ores",
+    "tooltip.maple-forest.hatchet": "Strip Logs for Bark",
+    "tooltip.maple-forest.tap": "Tap Maple Logs for Sap"
 }

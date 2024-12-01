@@ -15,40 +15,41 @@ public class ModItemGroup {
             new Identifier(MapleForest.MOD_ID, "mapleforest"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mapleforest"))
                     .icon(() -> new ItemStack(ModItems.MAPLE_SYRUP)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModItems.MAPLE_SAP);
-                        entries.add(ModItems.ORE_DETECTOR);
+                        entries.add(ModBlocks.TAP);
                         entries.add(ModBlocks.MAPLE_SAPLING);
+                        entries.add(ModBlocks.MAPLE_LEAVES);
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.STRIPPED_MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_WOOD);
                         entries.add(ModBlocks.STRIPPED_MAPLE_WOOD);
                         entries.add(ModBlocks.MAPLE_PLANKS);
-                        entries.add(ModBlocks.MAPLE_LEAVES);
                         entries.add(ModBlocks.MAPLE_STAIRS);
                         entries.add(ModBlocks.MAPLE_SLAB);
-                        entries.add(ModBlocks.MAPLE_BUTTON);
-                        entries.add(ModBlocks.MAPLE_PRESSURE_PLATE);
                         entries.add(ModBlocks.MAPLE_FENCE);
                         entries.add(ModBlocks.MAPLE_FENCE_GATE);
                         entries.add(ModBlocks.MAPLE_DOOR);
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
+                        entries.add(ModBlocks.MAPLE_BUTTON);
+                        entries.add(ModBlocks.MAPLE_PRESSURE_PLATE);
                         entries.add(ModItems.MAPLE_SIGN);
                         entries.add(ModItems.HANGING_MAPLE_SIGN);
                         entries.add(ModItems.MAPLE_BOAT);
                         entries.add(ModItems.MAPLE_CHEST_BOAT);
+                        entries.add(ModItems.HATCHET);
+                        entries.add(ModItems.BARK);
                         entries.add(ModItems.PELT);
                         entries.add(ModItems.ARMOR_PAD);
-                        entries.add(ModItems.BARK);
                         entries.add(ModItems.ARMOR_PAD_HELMET);
                         entries.add(ModItems.ARMOR_PAD_CHESTPLATE);
                         entries.add(ModItems.ARMOR_PAD_LEGGINGS);
                         entries.add(ModItems.ARMOR_PAD_BOOTS);
+
+                        entries.add(ModItems.ORE_DETECTOR);
                         entries.add(ModBlocks.CLUSTER_DIAMOND_ORE);
                         entries.add(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
-                        entries.add(ModItems.HATCHET);
-                        entries.add(ModBlocks.TAP);
-
 
                     }).build());
 

@@ -1,9 +1,11 @@
 package net.remclean.mapleforest.block.custom;
 
 import net.minecraft.block.*;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -15,6 +17,9 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.remclean.mapleforest.block.ModBlocks;
 import net.remclean.mapleforest.item.ModItems;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 
 public class TapBlock extends TripwireHookBlock {
@@ -65,5 +70,11 @@ public class TapBlock extends TripwireHookBlock {
         BlockPos blockPos = pos.offset(direction.getOpposite());
         BlockState blockState = world.getBlockState(blockPos);
         return direction.getAxis().isHorizontal() && blockState.isSideSolidFullSquare(world, blockPos, direction) && (blockState.getBlock() == ModBlocks.MAPLE_LOG);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
+        tooltip.add(Text.translatable("tooltip.maple-forest.tap"));
+        super.appendTooltip(stack, world, tooltip, options);
     }
 }

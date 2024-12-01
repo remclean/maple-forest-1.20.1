@@ -51,7 +51,6 @@ public class OreDetectorItem extends Item {
         return ActionResult.SUCCESS;
     }
 
-
     private void outputValuableCoordinates(BlockPos blockPos, PlayerEntity player, Block block) {
         player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() + " at (" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"), true);
     }

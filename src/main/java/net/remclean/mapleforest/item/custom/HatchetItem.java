@@ -25,8 +25,6 @@ public class HatchetItem extends net.minecraft.item.AxeItem {
         super(material, attackDamage, attackSpeed, settings);
     }
 
-
-
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
         if(!context.getWorld().isClient()) {
@@ -39,14 +37,7 @@ public class HatchetItem extends net.minecraft.item.AxeItem {
             }
         }
 
-
-
         return super.useOnBlock(context);
-    }
-
-    private void stripLog(BlockPos posClicked, BlockState state, ServerPlayerEntity player) {
-//        BlockState newState = new BlockState(ModBlocks.STRIPPED_MAPLE_LOG, )
-//        Block replace = new Block.replace(state, newState, player.getWorld(), posClicked, 0);
     }
 
     private void spawnBark(ServerPlayerEntity player, BlockPos posClicked) {

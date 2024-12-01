@@ -97,8 +97,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TAP)));
 
         offerSmelting(exporter, SAP, RecipeCategory.MISC, ModItems.MAPLE_SYRUP,
-                0.7f, 800, "maple");
-
+                0.7f, 800, "mapleforest");
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ARMOR_PAD, 1).input(ModItems.PELT).input(Items.STRING).input(ModItems.BARK).criterion(FabricRecipeProvider.hasItem(ModBlocks.MAPLE_LOG),
                 FabricRecipeProvider.conditionsFromItem(ModBlocks.MAPLE_LOG)).offerTo(exporter);

@@ -36,8 +36,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAPLE_FENCE_GATE);
         addDrop(ModBlocks.MAPLE_DOOR, doorDrops(ModBlocks.MAPLE_DOOR));
         addDrop(ModBlocks.MAPLE_TRAPDOOR);
-        //addDrop(ModBlocks.HANGING_MAPLE_SIGN);
-        //addDrop(ModBlocks.MAPLE_STANDING_SIGN);
         addDrop(ModBlocks.CLUSTER_DIAMOND_ORE, redstoneLikeOreDrops(ModBlocks.CLUSTER_DIAMOND_ORE, Items.DIAMOND));
         addDrop(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE, redstoneLikeOreDrops(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE, Items.DIAMOND));
     }
