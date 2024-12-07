@@ -13,7 +13,6 @@ import net.minecraft.world.biome.SpawnSettings;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
 import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
-import net.remclean.mapleforest.world.gen.ModTreeGeneration;
 
 public class ModBiomes {
     public static final RegistryKey<Biome> MAPLE_FOREST_BIOME = RegistryKey.of(RegistryKeys.BIOME,

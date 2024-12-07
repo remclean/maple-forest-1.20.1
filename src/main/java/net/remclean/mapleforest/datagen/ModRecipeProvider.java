@@ -25,17 +25,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ORE_DETECTOR, 1)
-                .pattern(" II")
-                .pattern(" D ")
-                .pattern("IRI")
-                .input('I', Items.IRON_INGOT)
-                .input('D', Items.DIAMOND)
-                .input('R', Items.REDSTONE_BLOCK)
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
-                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
-                .criterion(hasItem(Items.REDSTONE_BLOCK), conditionsFromItem(Items.REDSTONE_BLOCK))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORE_DETECTOR)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ARMOR_PAD_HELMET, 1)
                 .pattern("SPS")

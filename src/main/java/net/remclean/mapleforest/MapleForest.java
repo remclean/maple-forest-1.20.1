@@ -3,7 +3,7 @@ package net.remclean.mapleforest;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.remclean.mapleforest.block.ModBlocks;
-import net.remclean.mapleforest.entity.ModBoats;
+import net.remclean.mapleforest.entity.custom.ModBoats;
 import net.remclean.mapleforest.item.ModItemGroup;
 import net.remclean.mapleforest.util.ModLootTableModifiers;
 import net.remclean.mapleforest.world.gen.ModWorldGeneration;

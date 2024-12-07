@@ -1,7 +1,5 @@
 package net.remclean.mapleforest.world.biome.surface;
 
-import net.remclean.mapleforest.block.ModBlocks;
-import net.remclean.mapleforest.world.biome.ModBiomes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.gen.surfacebuilder.MaterialRules;
@@ -15,7 +13,6 @@ public class ModMaterialRules {
         MaterialRules.MaterialRule grassSurface = MaterialRules.sequence(MaterialRules.condition(isAtOrAboveWaterLevel, GRASS_BLOCK), DIRT);
 
         return MaterialRules.sequence(
-                // Default to a grass and dirt surface
                 MaterialRules.condition(MaterialRules.STONE_DEPTH_FLOOR, grassSurface)
         );
     }

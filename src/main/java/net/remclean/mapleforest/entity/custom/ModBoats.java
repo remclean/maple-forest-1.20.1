@@ -1,4 +1,4 @@
-package net.remclean.mapleforest.entity;
+package net.remclean.mapleforest.entity.custom;
 
 import com.terraformersmc.terraform.boat.api.TerraformBoatType;
 import com.terraformersmc.terraform.boat.api.TerraformBoatTypeRegistry;

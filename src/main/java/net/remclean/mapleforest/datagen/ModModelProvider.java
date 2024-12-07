@@ -30,9 +30,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.MAPLE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLUSTER_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
-
         blockStateModelGenerator.registerDoor(ModBlocks.MAPLE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.MAPLE_TRAPDOOR);
 
@@ -44,7 +41,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.MAPLE_SYRUP, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAPLE_SAP, Models.GENERATED);
-        itemModelGenerator.register(ModItems.ORE_DETECTOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.PELT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARMOR_PAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.BARK, Models.GENERATED);

@@ -19,14 +19,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAPLE_LOG)
                 .add(ModBlocks.MAPLE_PLANKS);
 
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.CLUSTER_DIAMOND_ORE)
-                .add(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
-
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.CLUSTER_DIAMOND_ORE)
-                .add(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
-
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)

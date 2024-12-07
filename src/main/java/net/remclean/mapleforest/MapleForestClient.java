@@ -8,7 +8,7 @@ import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.TexturedRenderLayers;
 import net.minecraft.client.util.SpriteIdentifier;
 import net.remclean.mapleforest.block.ModBlocks;
-import net.remclean.mapleforest.entity.ModBoats;
+import net.remclean.mapleforest.entity.custom.ModBoats;
 
 public class MapleForestClient implements ClientModInitializer {
     @Override

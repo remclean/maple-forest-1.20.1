@@ -47,10 +47,6 @@ public class ModItemGroup {
                         entries.add(ModItems.ARMOR_PAD_LEGGINGS);
                         entries.add(ModItems.ARMOR_PAD_BOOTS);
 
-                        entries.add(ModItems.ORE_DETECTOR);
-                        entries.add(ModBlocks.CLUSTER_DIAMOND_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_CLUSTER_DIAMOND_ORE);
-
                     }).build());
 
     public static void registerItemGroups() {

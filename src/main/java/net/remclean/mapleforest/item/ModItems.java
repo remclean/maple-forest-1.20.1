@@ -10,10 +10,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.remclean.mapleforest.MapleForest;
 import net.remclean.mapleforest.block.ModBlocks;
-import net.remclean.mapleforest.entity.ModBoats;
+import net.remclean.mapleforest.entity.custom.ModBoats;
 import net.remclean.mapleforest.item.custom.HatchetItem;
 import net.remclean.mapleforest.item.custom.ModArmorItem;
-import net.remclean.mapleforest.item.custom.OreDetectorItem;
 
 public class ModItems {
     public static final Item MAPLE_SYRUP = registerItem("maplesyrup",
@@ -27,9 +26,6 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item BARK = registerItem("bark",
             new Item(new FabricItemSettings().recipeRemainder(ModItems.PELT)));
-
-    public static final Item ORE_DETECTOR = registerItem("oredetector",
-            new OreDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item HATCHET = registerItem("hatchet",
             new HatchetItem(ToolMaterials.IRON, 2.5f, 0f, new FabricItemSettings().maxDamage(64)));
