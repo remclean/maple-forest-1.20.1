@@ -9,7 +9,7 @@ import net.remclean.mapleforest.MapleForest;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ARMOR_PAD("hunters", 25, new int[] {2,7,5,2}, 25,
+    ARMOR_PAD("hunters", 25, new int[] {2,6,4,2}, 25,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.5f, 0.5f, () -> Ingredient.ofItems(ModItems.ARMOR_PAD));
 
     private final String name;
